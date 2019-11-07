@@ -34,9 +34,9 @@ data: {
   }
 
   removeBuilding() {
-    this.props.data = this.props.data.filter(directory => {
-      return directory.id!=this.state.selectedBuilding
-    })
+    //this.props.data = this.props.data.filter(directory => {
+    //  return directory.id!=this.state.selectedBuilding
+    //})
   }
 
   render() {
